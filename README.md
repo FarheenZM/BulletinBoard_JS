@@ -42,3 +42,11 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+
+## Launching the app :-
+‘npm run build'. So what this is going to do is it's going to create an optimized production build, so that you can launch it on a server.
+
+sudo npm install -g serve
+Serve -s build - to run app (port 5000) ( now app is much smaller & faster)

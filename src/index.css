@@ -33,7 +33,7 @@ div.note {
     width: 150px;
     background-color: yellow;
     margin: 2px 0;
-    position: relative;
+    position: absolute;
     cursor: -webkit-grab;
     -webkit-box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, .2);
     box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, .2);
@@ -70,11 +70,11 @@ div.note > textarea {
     background: rgba(255, 255, 255, .5);
 }
 
-/* div.board button {
+div.board button {
   color: #fff;
   font-size: 14px;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.55);
-} */
+}
 
 #add {
   background-color: #5cb85c;
